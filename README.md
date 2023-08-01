@@ -20,9 +20,10 @@ The main objective of the project is to provide a hands-free and intuitive way t
 The system uses the webcam to capture live video frames. It detects and tracks the user's hand in real-time using the Mediapipe hand tracking module. Hand landmarks, including the coordinates of specific fingertips and other points, are detected.
 The system recognizes various hand gestures, such as an open hand, pointing, and finger pinching.
 The cursor on the computer screen is controlled based on the movements of the user's hand:
-    - When the forefinger is up and the middle finger is down, the cursor follows the movements of the forefinger tip, enabling cursor control by hand movement.
 
-    - When the forefinger and middle finger are both up and close to each other, the system simulates a mouse click, allowing the user to interact with the computer without touching the mouse.
+- When the forefinger is up and the middle finger is down, the cursor follows the movements of the forefinger tip, enabling cursor control by hand movement.
+
+- When the forefinger and middle finger are both up and close to each other, the system simulates a mouse click, allowing the user to interact with the computer without touching the mouse.
 
 #### User Interface:
 
